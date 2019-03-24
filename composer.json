@@ -1,0 +1,21 @@
+{
+  "name": "boldrock-wp",
+  "description": "Bold Rock WordPress site.",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": "~7.1.0",
+    "ext-mbstring": "*",
+    "vlucas/phpdotenv": "^2.4",
+    "wp-cli/wp-cli": "^1.4",
+    "johnpbloch/wordpress": "^4.9.5"
+  },
+  "extra": {
+    "wordpress-install-dir": "web/wp"
+  }
+}
