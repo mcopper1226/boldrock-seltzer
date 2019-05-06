@@ -201,3 +201,37 @@
     }
   }
 }
+
+@mixin flex-grid($sm:null, $med:null, $lg:null, $xl:null, $pad:0) {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-left: -$pad;
+  margin-right: -$pad;
+  list-style: none;
+
+  & > * {
+    padding:$pad;
+    flex-basis: 100%/$sm;
+    max-width: 100%/$sm;
+
+    @media(min-width: $min-768){
+      flex-basis: 100%/$med;
+      max-width: 100%/$med;
+    }
+
+    @if $lg {
+      @media(min-width: $min-960){
+        flex-basis: 100%/$lg;
+        max-width: 100%/$lg;
+      }
+    }
+
+    @if $xl {
+      @media(min-width: $min-1200){
+        flex-basis: 100%/$xl;
+        max-width: 100%/$xl;
+      }
+    }
+  }
+}

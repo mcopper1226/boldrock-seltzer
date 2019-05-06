@@ -1,4 +1,4 @@
-MCWP<?php
+<?php
 
 define('MCWP_THEME_VERSION', '0.1');
 
@@ -18,12 +18,17 @@ if (!defined('IS_DEV')) {
 }
 
 add_action('wp_enqueue_scripts', function() {
-    wp_enqueue_script( 'typekit', '//use.typekit.net/bif1klm.js', array(), '1.0.0' );
+    wp_enqueue_script( 'typekit', '//use.typekit.net/nds8eby.js', array(), '1.0.0' );
   // in development styles are injected via development build of main.js
   if (!IS_DEV) {
     wp_enqueue_style('styles', get_stylesheet_uri(), array(), MCWP_THEME_VERSION);
   }
+  wp_enqueue_script('waypoints', get_theme_file_uri('/waypoints.js'), array(), MCWP_THEME_VERSION);
   wp_enqueue_script('scripts', get_theme_file_uri('/js/main.js'), array(), MCWP_THEME_VERSION);
+
+  if (is_page( 'cf-front')) {
+    wp_enqueue_script('google-map-scripts', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBGCql0HlN4C_D7B2BcIIhtuFvjrdfvoew', true);
+  }
 });
 
 //Typkit
@@ -47,7 +52,7 @@ add_image_size( 'blur-thumb', 100 );
 add_action('init', function() {
   register_nav_menus(
     array(
-      'menu' => 'Menu',
+      'menu' => 'Menu'
     )
   );
 });

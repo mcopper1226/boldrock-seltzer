@@ -1,0 +1,139 @@
+
+footer {
+  background: white;
+}
+.footer-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-nav {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  a {
+    @include reset-anchor;
+    display: block;
+  }
+}
+.footer-logo {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  .logo-wrap {
+    width: 150px;
+    svg {
+      fill: $gray;
+    }
+  }
+}
+
+
+.footer-contact {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+.footer-colophon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  .copyright {
+    flex: 0 0 100%;
+    text-align: center;
+  p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  }
+  .privacy {
+    flex: 1;
+    text-align: center;
+    a {
+      @include reset-anchor;
+      padding-left: 10px;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}
+.footer-buttons {
+  margin-top: 20px;
+}
+.footer-nav-list {
+  flex: 0 0 100%;
+  margin: 20px 0;
+  display: none;
+
+  ul {
+    @include reset-list;
+    margin: 0 2vw;
+    li:first-of-type {
+      color: blue;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+    }
+  }
+}
+
+.social-links {
+  @include reset-list;
+  display:inline-block;
+  margin-top:10px
+}
+
+.social-links li{
+  width:26px;
+  height:26px;
+  display:block;
+  float:left;
+  margin:0 5px;
+  padding:7px;
+  background:$orange;
+  border-radius:100%;
+  transition:background-color .25s ease-in-out;
+
+}
+.social-links li:first-of-type {
+  margin-left: 0;
+
+}
+.social-links li:last-of-type {
+  margin-right: 0;
+
+}
+.social-links li:hover{
+  background-color: $pink;
+}
+
+.social-links li .cls-1{fill:white}
+
+.footer-nav a.button {
+  color: white;
+}
+
+.cta .social-links li {
+  width:46px;
+  height:46px;
+}
+
+@media screen and (min-width: 720px) {
+  .footer-colophon {
+
+    .copyright {
+      flex: 1;
+      text-align: left;
+    }
+    .privacy {
+      text-align: right;
+    }
+  }
+
+
+}

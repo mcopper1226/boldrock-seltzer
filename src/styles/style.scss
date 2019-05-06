@@ -1,8 +1,14 @@
-$assets: '/wp-content/themes/boldrock-wp/assets';
+$assets: '/app/themes/boldrock-wp/assets';
 
 @import 'config';
 @import 'base';
+@import 'containers';
+@import 'home.scss';
 
-@import 'grid-overlay';
-
+@import './components/header';
+@import './components/footer';
+@import './components/hero';
 @import './components/button';
+
+
+@import './pages/finder'

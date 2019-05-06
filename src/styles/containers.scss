@@ -1,0 +1,56 @@
+section {
+  padding: 2rem 0;
+}
+.outer-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  max-width: 1200px;
+  position: relative;
+  z-index: 3; 
+}
+
+.outer-container-full {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.outer-container.small {
+  max-width: 1000px !important;
+}
+
+.inner-container-b {
+  display: block;
+}
+
+.flex-2 {
+  @include flex-grid(1, 1, 2, 2, 20px);
+}
+
+.flex-40-60> :nth-child(1) {
+  flex: 0 0 100%;
+}
+.flex-40-60> :nth-child(2) {
+  flex: 0 0 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+  section {
+    padding: 4rem 0;
+  }
+  .outer-container {
+    padding: 4rem 0;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .flex-40-60> :nth-child(1) {
+    flex: 0 0 40%;
+  }
+  .flex-40-60> :nth-child(2) {
+    flex: 1;
+    margin-left: 4vw;
+  }
+}

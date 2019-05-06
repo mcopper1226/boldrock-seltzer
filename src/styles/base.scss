@@ -67,6 +67,7 @@ body {
 
   // iOS on orientation change
   text-size-adjust: 100%;
+
 }
 
 img {
@@ -91,4 +92,12 @@ select {
   &:-ms-input-placeholder {
     color: $color-placeholder;
   }
+}
+
+svg {
+  display: block;
+}
+
+p {
+  line-height: 1.7; 
 }

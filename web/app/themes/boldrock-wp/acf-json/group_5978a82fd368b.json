@@ -1,0 +1,64 @@
+{
+    "key": "group_5978a82fd368b",
+    "title": "Middle Deck",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cider"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5978ac0a6609b",
+            "label": "Cider Video",
+            "name": "cider_video",
+            "type": "url",
+            "instructions": "Paste in the full URL from YouTube or Vimeo",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/www.youtube.com\/watch?v=8JFjow1v3AA",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5978acd86609c",
+            "label": "Recipes",
+            "name": "cider_recipes",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "modified": 1553441699
+}

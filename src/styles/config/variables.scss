@@ -12,10 +12,10 @@ $page-width: 1290px;
 $page-limit: $page-width + ($container-gutter-desktop * 2);
 
 // Fonts
-$font-family: 'Roboto', sans-serif;
+$font-family: 'aktiv-grotesk', sans-serif;
 $font-size: 16px;
 $line-height: 1.5;
-
+$font-c: 'aktiv-grotesk-condensed', sans-serif;
 // Colors
 $color-font: #333;
 $color-background: #fff;
@@ -80,3 +80,13 @@ $segment-padding: 200px; //percentage-based segments spacing
 $scale: 1;
 $scale-md: 0.9;
 $scale-sm: 0.8;
+
+$orange: #ff8200;
+$orange-d: darken($orange, 20%);
+$green1: darken(#97d700, 3%);
+$green: desaturate($green1, 15%);
+$brown: #795035;
+$pink: #e64360;
+$tan: #cab8ab;
+$gray: #54565b;
+$green-d: #329044; 

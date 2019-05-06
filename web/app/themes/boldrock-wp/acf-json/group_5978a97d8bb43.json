@@ -1,0 +1,109 @@
+{
+    "key": "group_5978a97d8bb43",
+    "title": "Cider Information",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cider"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5978a988b5084",
+            "label": "Available As",
+            "name": "cider_available_as",
+            "type": "checkbox",
+            "instructions": "Select All That Apply",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "12-oz bottles": "12-oz bottles",
+                "Pony Keg": "Pony Keg",
+                "12-oz cans": "12-oz cans",
+                "Draft": "Draft",
+                "16-oz cans": "16-oz cans",
+                "750-ml bottles": "750-ml bottles"
+            },
+            "allow_custom": 1,
+            "save_custom": 1,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_5978aa4c73312",
+            "label": "Alcohol By Volume",
+            "name": "cider_abv",
+            "type": "text",
+            "instructions": "Write as x.x%",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5978aa8173313",
+            "label": "Pairs Well With",
+            "name": "cider_pairing",
+            "type": "textarea",
+            "instructions": "Comma separated list",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5996066920de6",
+            "label": "Ingredients",
+            "name": "cider_ingredients",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        }
+    ],
+    "modified": 1553441699
+}

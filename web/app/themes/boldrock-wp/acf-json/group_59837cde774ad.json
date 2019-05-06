@@ -1,0 +1,141 @@
+{
+    "key": "group_59837cde774ad",
+    "title": "Quotes",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "quotes"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_59837ceb84a59",
+            "label": "Quote Name",
+            "name": "quote_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59837d0184a5a",
+            "label": "Quote Source",
+            "name": "quote_source",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Facebook": "Facebook",
+                "Twitter": "Twitter",
+                "TripAdvisor": "TripAdvisor",
+                "Yelp": "Yelp",
+                "Other": "Other"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59837e5c29912",
+            "label": "Review For?",
+            "name": "quote_review",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Pear": "Pear",
+                "Peach": "Peach",
+                "Wild Cherry": "Wild Cherry",
+                "Citrus": "Citrus",
+                "Virginia Draft": "Virginia Draft",
+                "Virginia Apple": "Virginia Apple",
+                "Carolina Draft": "Carolina Draft",
+                "Carolina Apple": "Carolina Apple",
+                "Blood Orange": "Blood Orange",
+                "IPA": "IPA",
+                "Premium Dry": "Premium Dry",
+                "Vat No. 1": "Vat No. 1",
+                "Vintage Dry": "Vintage Dry",
+                "Variety Crate": "Variety Crate"
+            },
+            "allow_null": 0,
+            "other_choice": 1,
+            "save_other_choice": 1,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_599b49e9cf09d",
+            "label": "Quote Link",
+            "name": "quote_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_599b4bf871e87",
+            "label": "Alternate Quote Name",
+            "name": "alternate_quote_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "modified": 1553441699
+}

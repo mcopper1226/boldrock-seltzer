@@ -22,6 +22,7 @@ Redirect 301 /wp-login.php /wp/wp-login.php
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
+RewriteCond %{REQUEST_URI} !^/(ciderfinder|ciderfinder/.*)$ 
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

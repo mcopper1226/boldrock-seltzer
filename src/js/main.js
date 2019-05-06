@@ -1,12 +1,14 @@
 /* global IS_DEV */
 
-import devtools from './devtools';
-import button from './components/button';
 
+import lazy from './components/lazy';
+import animations from './components/animations';
+import scroll from './components/smoothScroll';
 function loaded() {
-  devtools.init(IS_DEV);
 
-  button();
+  lazy();
+  animations();
+  scroll(); 
 }
 
 document.addEventListener('DOMContentLoaded', loaded);

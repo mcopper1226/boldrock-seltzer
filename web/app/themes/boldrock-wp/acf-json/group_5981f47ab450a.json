@@ -1,0 +1,56 @@
+{
+    "key": "group_5981f47ab450a",
+    "title": "Image Reel",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "locations"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cider"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5981f4a40061e",
+            "label": "Images",
+            "name": "images_reel",
+            "type": "gallery",
+            "instructions": "5x3 aspect ratio (for example: 800px wide by 480px tall)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "insert": "append",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "modified": 1553441699
+}

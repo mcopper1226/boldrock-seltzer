@@ -1,0 +1,251 @@
+{
+    "key": "group_5a95a33a086cc",
+    "title": "Event Details",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sc_event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5a95a33a0abc0",
+            "label": "Event Website",
+            "name": "event_website_link",
+            "type": "url",
+            "instructions": "Facebook link, third-party website link, etc.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5a95a33a0ac9b",
+            "label": "Free or Paid?",
+            "name": "free_or_paid",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Free": "Free",
+                "Paid": "Paid"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5a95a33a0ad20",
+            "label": "Price",
+            "name": "event_price",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a95a33a0ac9b",
+                        "operator": "==",
+                        "value": "Paid"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5a95a33a0adcc",
+            "label": "Purchase Tickets",
+            "name": "purchase_tickets_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5a95a33a0ae47",
+            "label": "Event Location",
+            "name": "the_event_location",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Nellysford Cidery": "Nellysford Cidery",
+                "Chiles Peach": "Chiles Peach",
+                "Mills River Cidery": "Mills River Cidery",
+                "Carter Mountain": "Carter Mountain",
+                "Offsite": "Offsite",
+                "Nellysford Barrel Barn": "Nellysford Barrel Barn"
+            },
+            "allow_null": 0,
+            "other_choice": 1,
+            "save_other_choice": 1,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5a95a33a0af24",
+            "label": "Offsite Event Venue",
+            "name": "offsite_event_venue",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a95a33a0ae47",
+                        "operator": "==",
+                        "value": "Offsite"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a95a33a0afa0",
+            "label": "Offsite Event Address",
+            "name": "offsite_event_address",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5a95a33a0b04b",
+            "label": "Offsite Event Directions",
+            "name": "offsite_event_directions",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a95a33a0ae47",
+                        "operator": "==",
+                        "value": "Offsite"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5a95a33a0b103",
+            "label": "Offsite Event Map Link",
+            "name": "offsite_event_map_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a95a33a0ae47",
+                        "operator": "==",
+                        "value": "Offsite"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5a95a33a0b186",
+            "label": "Event Contact Phone",
+            "name": "event_contact_phone",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "modified": 1553441699
+}
