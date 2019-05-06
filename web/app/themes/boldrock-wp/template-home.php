@@ -42,7 +42,7 @@ if (have_posts()) {
         </div>
         <div class="content content__text">
           <h2>All-natural, crafted from real fruit and fresh Blue Ridge Mountain water</h2>
-          <p>From the creators of the fastest growing independent cider brand in the US comes Bold Rock Hard Seltzer, a hand crafted refreshment that delivers a clean, effervescent taste with all-natural ingredients, just 82 calories and only 1 gram of sugar. <span class="scroll">Scroll for More</span></p>
+          <p>From the creators of the best selling independent cider brand in the US comes Bold Rock Hard Seltzer, a hand crafted refreshment that delivers a clean, effervescent taste with all-natural ingredients, just 82 calories and only 1 gram of sugar. <span class="scroll">Scroll for More</span></p>
 
         </div>
 
@@ -62,6 +62,7 @@ if (have_posts()) {
             <h5><span class="facts__number">82</span>Calories</h5>
               <h5><span class="facts__number">1g</span>Sugar</h5>
                 <h5><span class="facts__number">GF</span>Gluten Free</h5>
+                  <h5><span class="facts__number">4%</span>Alcohol by Volume</h5>
           </div>
         </div>
         <div class="content content__image">
@@ -92,6 +93,7 @@ if (have_posts()) {
             <h5><span class="facts__number">82</span>Calories</h5>
               <h5><span class="facts__number">1g</span>Sugar</h5>
                 <h5><span class="facts__number">GF</span>Gluten Free</h5>
+                <h5><span class="facts__number">4%</span>Alcohol by Volume</h5>
           </div>
         </div>
 

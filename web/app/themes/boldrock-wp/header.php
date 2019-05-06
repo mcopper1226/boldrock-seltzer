@@ -17,7 +17,6 @@
       }
     </style>
   <?php endif; ?>
-      <?php gravity_form_enqueue_scripts( 2, true ); ?>
     <?php wp_head(); ?>
 </head>
 
