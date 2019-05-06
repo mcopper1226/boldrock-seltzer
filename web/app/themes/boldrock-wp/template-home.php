@@ -9,8 +9,7 @@ if (have_posts()) {
 ?>
 
 <main>
-  <?php
-  if (has_post_thumbnail() ): ?>
+
   <section class="intro">
     <div class="headerSpacer"></div>
     <video autoplay muted loop id="bubblesVideo">
@@ -120,7 +119,6 @@ if (have_posts()) {
       </div>
     </div>
   </section>
-<?php endif; ?>
 
 
 
