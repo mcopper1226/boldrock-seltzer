@@ -57,7 +57,7 @@ if (have_posts()) {
             <h3>Cucumber Melon</h3>
             <div class="bar"></div>
           </div>
-          <p class="white">A juicy burst of melon balanced by light and refreshing cucumber notes gives this Blue Ridge seltzer perfect drinkability. Let the effervescence dance on your tongue with each sip.</p>
+          <p class="white">Cucumber Melon features a juicy splash of melon paired with incredibly crisp and light cumber notes that are sure to make this Bold Rock Hard Seltzer a fan favorite. Lift your spirits with a cold Cucumber Melon and invigorate with this bubbly goodness.</p>
           <div class="facts">
             <h5><span class="facts__number">82</span>Calories</h5>
               <h5><span class="facts__number">1g</span>Sugar</h5>
@@ -87,7 +87,7 @@ if (have_posts()) {
             <h3>Grapefruit</h3>
             <div class="bar"></div>
           </div>
-          <p class="white">A tart and cheerful Grapefruit infusion finds its best form in this Blue Ridge Mountain seltzer. Made from real apples with the ideal balance of bubbles.</p>
+          <p class="white">Grapefruit channels a pleasant citrus zest paired with a clean and refreshingly effervescent Bold Rock Hard Seltzer finish. Enjoy Grapefruit for any occasion and stay light on your feet with just 82 calories per serving.</p>
           <div class="facts">
             <h5><span class="facts__number">82</span>Calories</h5>
               <h5><span class="facts__number">1g</span>Sugar</h5>
