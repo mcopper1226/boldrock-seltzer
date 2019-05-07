@@ -57,7 +57,7 @@ if (have_posts()) {
             <h3>Cucumber Melon</h3>
             <div class="bar"></div>
           </div>
-          <p class="white">Cucumber Melon features a juicy splash of melon paired with incredibly crisp and light cumber notes that are sure to make this Bold Rock Hard Seltzer a fan favorite. Lift your spirits with a cold Cucumber Melon and invigorate with this bubbly goodness.</p>
+          <p class="white">Cucumber Melon features a juicy splash of melon paired with incredibly crisp and light cucumber notes that are sure to make this Bold Rock Hard Seltzer a fan favorite. Lift your spirits with a cold Cucumber Melon and invigorate with this bubbly goodness.</p>
           <div class="facts">
             <h5><span class="facts__number">82</span>Calories</h5>
               <h5><span class="facts__number">1g</span>Sugar</h5>

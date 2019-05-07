@@ -144,7 +144,16 @@
 
   background-attachment: fixed;
   position: relative;
-
+  .outer-container {
+    padding: 0;
+  }
+  .content__text {
+    text-align: center;
+    padding-top: 0; 
+  }
+  .white, .facts {
+    text-align: left;
+  }
   h5 {
     color: white;
     font-weight: bold;
@@ -163,7 +172,7 @@
     align-items: center;
     margin-right: 10px;
   }
-  
+
 }
 
 .lr, .rl {
@@ -224,8 +233,14 @@
     right: 40px;
 
     }
-
-
+  }
+  .panel {
+    .outer-container {
+      padding: 2rem 0;
+    }
+    .content__text {
+      text-align: left;
+    }
   }
   .lr {
     .content__text {
