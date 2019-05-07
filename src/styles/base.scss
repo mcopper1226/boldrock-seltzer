@@ -57,7 +57,9 @@ html {
 
 body {
   position: relative;
-
+  width: 100vw;
+  overflow-x: hidden;
+  
   margin: 0;
 
   font-family: $font-family;
@@ -99,5 +101,5 @@ svg {
 }
 
 p {
-  line-height: 1.7; 
+  line-height: 1.7;
 }
