@@ -67,7 +67,7 @@ if (have_posts()) {
         </div>
         <div class="content content__image">
           <div class="content__imageInner">
-            <div class="content__imageWrap fade-in-left animated"><img src="<?php echo THEME_IMG_PATH . '/single-cucumberMelon.png';?>" /></div>
+            <div class="content__imageWrap fade-in-left animated"><img src="<?php echo THEME_IMG_PATH . '/package-cm.png';?>" /></div>
 
           </div>
 
@@ -78,7 +78,7 @@ if (have_posts()) {
       <div class="flex flex-2 flex-items-center rl">
         <div class="content content__image">
           <div class="content__imageInner">
-            <div class="content__imageWrap fade-in-right animated"><img src="<?php echo THEME_IMG_PATH . '/single-grapefruit.png';?>" /></div>
+            <div class="content__imageWrap fade-in-right animated"><img src="<?php echo THEME_IMG_PATH . '/package-gf.png';?>" /></div>
 
           </div>
 
