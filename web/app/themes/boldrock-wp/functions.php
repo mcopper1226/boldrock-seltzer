@@ -27,7 +27,8 @@ add_action('wp_enqueue_scripts', function() {
   wp_enqueue_script('scripts', get_theme_file_uri('/js/main.js'), array(), MCWP_THEME_VERSION);
 
   if (is_page( 'cf-front')) {
-    wp_enqueue_script('google-map-scripts', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBGCql0HlN4C_D7B2BcIIhtuFvjrdfvoew', true);
+    wp_enqueue_script('google-map-scripts', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDjp7gOCyWv6E-nrUV41E_xw_8Krp_Q_go', true);
+    wp_enqueue_script('cider-scripts', get_theme_file_uri('/cider.js'), array(), MCWP_THEME_VERSION);
   }
 });
 
