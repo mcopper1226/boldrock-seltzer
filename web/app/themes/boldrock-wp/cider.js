@@ -417,14 +417,20 @@ const mapArea = document.querySelector('#map');
     event.preventDefault();
     actionBtn.classList.add('loading-active');
     getLocation();
-    console.log('clicked');
+    console.log('get the location');
   });
+
 
   //Pagination
   findBtn.addEventListener('click', function(){
+
     event.preventDefault();
+
     searchParamString = '';
     resultsWrap.classList.add('results-revealed');
+    var searchBox = document.querySelector('.search-wrap');
+    searchBox.classList.add('slideOutUp');
+    console.log('hello?');
     getSelectedVals();
 
   });

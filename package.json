@@ -23,9 +23,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^3.7.2",
+    "app-root-dir": "1.0.2",
     "chalk": "2.3.0",
     "dotenv": "4.0.0",
-    "app-root-dir": "1.0.2",
     "rimraf": "2.6.2"
   },
   "devDependencies": {

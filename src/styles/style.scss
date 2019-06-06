@@ -1,14 +1,4 @@
 $assets: '/app/themes/boldrock-wp/assets';
 
-@import 'config';
-@import 'base';
-@import 'containers';
-@import 'home.scss';
-
-@import './components/header';
-@import './components/footer';
-@import './components/hero';
-@import './components/button';
-
-
-@import './pages/finder'
+@import 'main';
+@import './pages/finder.scss'; 
