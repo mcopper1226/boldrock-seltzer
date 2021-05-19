@@ -12,7 +12,7 @@
     "php": "~7.1.0",
     "ext-mbstring": "*",
     "vlucas/phpdotenv": "^2.4",
-    "wp-cli/wp-cli": "^1.4",
+    "wp-cli/wp-cli": "^2.5",
     "johnpbloch/wordpress": "^4.9.5"
   },
   "extra": {
